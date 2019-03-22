@@ -5,6 +5,12 @@ This is example bot for Boxy Dots project
 In order for bot to work it should consist of makeTheMove method, the game state (all current moves that are made). 
 Game state structure looks like this:
 
+The project has to have the structure
+
+/:
+     boxydotsbot.py <- the file that has the bot in it
+          <- this file has to have a class called "bot"
+
 [  {
      'point_from_x': move.point_from_x,
      'point_from_y': move.point_from_y,
@@ -23,3 +29,5 @@ So it is a list of dictonaries.
 
 The method should return dictonary that is the same structure as the one above.
 When the class will be initialized program will pass dimensions as well.
+
+
