@@ -10,21 +10,24 @@ The project has to have the structure
 /:
 
      boxydotsbot.py <- the file that has the bot in it
-     
+ 
           <- this file has to have a class called "bot"
 
 [  {
+
      'point_from_x': move.point_from_x,
      'point_from_y': move.point_from_y,
      'point_to_x'  : move.point_to_x,
      'point_to_y'  : move.point_to_y
     },
+    
     {
      'point_from_x': move.point_from_x,
      'point_from_y': move.point_from_y,
      'point_to_x'  : move.point_to_x,
      'point_to_y'  : move.point_to_y
     }
+    
 ]
 
 So it is a list of dictonaries. 
