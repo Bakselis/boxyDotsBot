@@ -8,7 +8,9 @@ Game state structure looks like this:
 The project has to have the structure
 
 /:
+
      boxydotsbot.py <- the file that has the bot in it
+     
           <- this file has to have a class called "bot"
 
 [  {
