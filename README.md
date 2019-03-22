@@ -5,14 +5,6 @@ This is example bot for Boxy Dots project
 In order for bot to work it should consist of makeTheMove method, the game state (all current moves that are made). 
 Game state structure looks like this:
 
-The project has to have the structure
-
-/:
-
-     boxydotsbot.py <- the file that has the bot in it
- 
-          <- this file has to have a class called "bot"
-
 [  {
 
      'point_from_x': move.point_from_x,
@@ -29,6 +21,15 @@ The project has to have the structure
     }
     
 ]
+
+
+The project has to have the structure
+
+/:
+
+     boxydotsbot.py <- the file that has the bot in it
+ 
+          <- this file has to have a class called "bot"
 
 So it is a list of dictonaries. 
 
